@@ -7,7 +7,9 @@ html {
     scroll-behavior: smooth;
 }
 
-body {background-color: #8FA79A;}
+body {
+    background-color: #8FA79A;
+}
 
 
 /* inicio*/
@@ -26,6 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     width: 130px;
     height: 100px;
@@ -33,181 +36,283 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
 menu {
-    width: 400px;
-    height: 20px;
+    width: 800px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 30px;
+    align-self: center;
 }
-/*ver com o prof*/
+
 menu a:link,
 menu a:visited {
+    width: 100px;
+    height: 40px;
     display: flex;
     justify-content: center;
-    align-items:center ;
-    margin-right: auto;
+    align-items: center;
     text-decoration: none;
-    border: 1px solid red;
     color: #fafafa;
     text-align: center;
     text-transform: none;
-    font-size:larger;
+    font-size: larger;
 }
 
 .sublogo {
-    width: 220px;
+    width: 200px;
     height: 80px;
     align-items: center;
-    margin-left: auto;
+    margin-right: 50px;
 }
+
 
 /*começo*/
 
-#inicio{
-  display: flex;
-  height: 700px;
-  border: 1px solid red;
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
- #inicio h1 {
+#inicio {
+    display: flex;
+    height: 800px;
+}
+
+#inicio h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 40%;
+}
+
+#inicio p {
+    width: 1150px;
+    height: 250px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 25%;
+    bottom: -300px;
+    margin-left: -240px;
+    font-size: large;
+    color: #fafafa;
+}
+
+.familia {
+    width: 970px;
+    height: 520px;
     display: flex;
     justify-content: center;
-    align-items:center ;
-
- }
-
- #inicio p{
-background-color: black;
-color: #fafafa;
- }
-
-.familia{
-width: 970px;
-height: 520px;
-display: flex;
-justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    bottom: -55px;
+    margin-left: -200px;
 }
- .olho {
+
+.olho {
     width: 130px;
     height: 100px;
- }
+    position: absolute;
+    left: 97%;
+    bottom: -290px;
+    margin-left: -200px;
+}
 
 
- /* sessão anya*/
+/* sessão anya*/
 
- #anya{
-height: 600px;
- }
+#anya {
+    height: 550px;
+}
 
- #anya h1{
+#anya h1 {
     display: flex;
     justify-content: center;
-    align-items:center ;
- }
- #anya p{
-    font-size: large;
- }
+    align-items: center;
+    font-size: xx-large;
+}
 
- .anya-forger{
-width: 800px;
-height: 450px;
- }
+#anya p {
+    width: 450px;
+    height: 20px;
+    font-size: x-large;
+    position: absolute;
+    left: 80%;
+    bottom: -500px;
+    margin-left: -200px;
+}
 
- /* Loid */
+.anya-forger {
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    left: 18%;
+    bottom: -820px;
+    margin-left: -200px;
+    overflow: hidden;
+    border-radius: 40px;
+}
 
- #loid {
-height: 700px;
- }
 
- #loid h1{
+/* Loid */
+
+#loid {
+    height: 630px;
+}
+
+#loid h1 {
     display: flex;
     justify-content: center;
-    align-items:center ;
- }
+    align-items: center;
+    padding: 10px;
+    font-size: xx-large;
+}
 
- #loid p {
-    font-size: large;
- }
+#loid p {
+    width: 500px;
+    height: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 70%;
+    bottom: -1300px;
+    margin-left: -200px;
+}
 
- .loid-forger{
-width: 288px;
-height: 600px;
+.loid-forger {
+    width: 288px;
+    height: 600px;
+    position: absolute;
+    left: 40%;
+    bottom: -1550px;
+    margin-left: -200px;
+}
 
- }
+.loid-fofo {
+    width: 320px;
+    height: 160px;
+    position: absolute;
+    left: 75%;
+    bottom: -1450px;
+    margin-left: -200px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+
 /*yor*/
 
- #yor {
-    height: 700px;
-border: 1px solid red;
- }
+#yor {
+    height: 600px;
+}
 
- #yor h1{
+#yor h1 {
     display: flex;
     justify-content: center;
-    align-items:center ;
- }
+    align-items: center;
+    padding: 10px;
+    font-size: xx-large;
+}
 
- #yor p{
-    display: flex;
-    justify-content: flex-end;
-    font-size: large;
-    padding: 6px;
+#yor p {
+    width: 500px;
+    height: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 65%;
+    bottom: -2000px;
+    margin-left: -200px;
     color: #000000;
- }
+}
 
- .yor-forger {
-width: 440px;
-height: 550px;
- }
+.yor-forger {
+    width: 440px;
+    height: 550px;
+    position: absolute;
+    left: 25%;
+    bottom: -2200px;
+    margin-left: -200px;
+}
+
 
 /*final*/
 
- footer{
-border: 1px solid red;
-background-color: black;
- }
+footer {
+    background-color: black;
+}
 
- #spy {
+#spy {
+    width: 550px;
+    height: 300px;
+}
 
- }
+#spy h1 {
+    color: #fafafa;
+    position: absolute;
+    left: 53%;
+    bottom: -2340px;
+    margin-left: -200px;
+}
 
- #spy h1{
-color:#fafafa;
-display: flexs;
-align-items: center;
-justify-content: center;
-margin-left: auto;
- }
-
- #spy a:link {
+#spy a:link {
     width: 200px;
     height: 50px;
     background-color: greenyellow;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     margin-right: auto;
     text-decoration: none;
     border-radius: 50px;
     color: #000000;
     text-align: center;
     text-transform: none;
-    font-size:larger;
+    font-size: larger;
     margin-left: auto;
- }
+    position: absolute;
+    left: 57%;
+    bottom: -2400px;
+    margin-left: -200px;
+}
 
- #spy p {
+#spy p {
     display: flexs;
-align-items: center;
-justify-content: center;
-color: #fafafa;
-margin-left: auto;
- }
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+    margin-left: auto;
+    font-size: large;
+}
 
- .forges {
+.forges {
+    width: 400px;
+    height: 230px;
     display: flex;
     padding: 10px;
     align-items: center;
- }
+}
+
+.for {
+    width: 320px;
+    height: 170px;
+    position: absolute;
+    left: 89%;
+    bottom: -2450px;
+    margin-left: -200px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.fundo-preto {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
